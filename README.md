@@ -1,4 +1,5 @@
 ## sawyer_robot
+*******************************
 ##### Workstation_Setup
 ```bash
 mkdir -p ~/sawyer_ws/src
@@ -10,6 +11,7 @@ echo "source ~/sawyer_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
+*******************************
 ##### environmental_configuration
 ```bash
 cp ~/sawyer_ws/src/sawyer_robot/intera_sdk/intera.sh ~/sawyer_ws
@@ -28,6 +30,7 @@ your_hostname="my_computer.local"
 ros_version="kinetic"
 ```
 
+*******************************
 ##### Initialize SDK environment
 ```bash
 cd ~/sawyer_ws
@@ -36,6 +39,7 @@ cd ~/sawyer_ws
 rostopic list
 ```
 
+*******************************
 ##### Test sawyer_simulator
 1. Start Joint Torque Springs example:
 ```bash
