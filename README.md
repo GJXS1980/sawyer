@@ -2,7 +2,7 @@
 *******************************
 ##### Installation dependence
 ```bash
-sudo apt-get install ros-kinetic-qt-build ros-kinetic-ros-control ros-kinetic-control-toolbox ros-kinetic-realtime-tools ros-kinetic-ros-controllers ros-kinetic-xacro ros-kinetic-tf-conversions ros-kinetic-kdl-parser
+sudo apt-get install ros-kinetic-ros-control ros-kinetic-control-toolbox ros-kinetic-realtime-tools ros-kinetic-ros-controllers 
 ```
 
 *******************************
