@@ -37,7 +37,7 @@ rostopic list
 ```
 
 ##### Test sawyer_simulator
-1.Start Joint Torque Springs example:
+1. Start Joint Torque Springs example:
 ```bash
 cd ~/sawyer_ws
 ./intera.sh sim
