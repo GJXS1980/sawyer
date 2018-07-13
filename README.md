@@ -1,5 +1,11 @@
 ## sawyer_robot
 *******************************
+##### Installation dependence
+```bash
+sudo apt-get install ros-kinetic-qt-build ros-kinetic-ros-control ros-kinetic-control-toolbox ros-kinetic-realtime-tools ros-kinetic-ros-controllers ros-kinetic-xacro ros-kinetic-tf-conversions ros-kinetic-kdl-parser
+```
+
+*******************************
 ##### Workstation_Setup
 ```bash
 mkdir -p ~/sawyer_ws/src
@@ -16,7 +22,7 @@ source ~/.bashrc
 ```
 
 *******************************
-##### environmental_configuration
+##### environmental_Setup
 ```bash
 cp ~/sawyer_ws/src/sawyer_robot/intera_sdk/intera.sh ~/sawyer_ws
 cd ~/sawyer_ws
