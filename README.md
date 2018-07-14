@@ -13,10 +13,6 @@ cd ~/sawyer_ws/src
 git clone https://github.com/GJXS1980/sawyer_robot.git
 cd ~/sawyer_ws
 catkin_make
-cd ~/sawyer_ws/src
-git clone https://github.com/RethinkRobotics/sawyer_simulator.git
-cd ~/sawyer_ws
-catkin_make
 echo "source ~/sawyer_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
