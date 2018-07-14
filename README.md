@@ -20,7 +20,7 @@ source ~/.bashrc
 *******************************
 ##### environmental_Setup
 ```bash
-cp ~/sawyer_ws/src/sawyer_robot/intera_sdk/intera.sh ~/sawyer_ws
+cp ~/sawyer_ws/src/sawyer/intera_sdk/intera.sh ~/sawyer_ws
 cd ~/sawyer_ws
 gedit intera.sh
 ```
