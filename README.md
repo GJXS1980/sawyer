@@ -10,7 +10,7 @@ sudo apt-get install ros-kinetic-ros-control ros-kinetic-control-toolbox ros-kin
 ```bash
 mkdir -p ~/sawyer_ws/src
 cd ~/sawyer_ws/src
-git clone https://github.com/GJXS1980/sawyer_robot.git
+git clone https://github.com/GJXS1980/sawyer.git
 cd ~/sawyer_ws
 catkin_make
 echo "source ~/sawyer_ws/devel/setup.bash" >> ~/.bashrc
